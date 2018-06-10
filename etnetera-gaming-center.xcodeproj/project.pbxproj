@@ -7,14 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5ED2D420CD894600265699 /* DataProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2D320CD894600265699 /* DataProviderType.swift */; };
+		2A5ED2D620CD897200265699 /* AccountCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2D520CD897200265699 /* AccountCredentials.swift */; };
+		2A5ED2D820CD89A300265699 /* PlayerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2D720CD89A300265699 /* PlayerProfile.swift */; };
+		2A5ED2DA20CD89CF00265699 /* ScoreDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2D920CD89CF00265699 /* ScoreDetail.swift */; };
+		2A5ED2DC20CD8A0C00265699 /* RemoteDataProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2DB20CD8A0C00265699 /* RemoteDataProviderType.swift */; };
+		2A5ED2DF20CD8A2B00265699 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2DE20CD8A2B00265699 /* Endpoint.swift */; };
+		2A5ED2E120CD8A6D00265699 /* RemoteDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2E020CD8A6D00265699 /* RemoteDataProvider.swift */; };
+		2A5ED2E320CD8AAB00265699 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2E220CD8AAB00265699 /* Login.swift */; };
+		2A5ED2E620CD8AED00265699 /* PlayerProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2E520CD8AED00265699 /* PlayerProfileVC.swift */; };
+		2A5ED2E820CD8B2200265699 /* PlayerProfileV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2E720CD8B2200265699 /* PlayerProfileV.swift */; };
+		2A5ED2EA20CD8B6500265699 /* ScoreV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2E920CD8B6500265699 /* ScoreV.swift */; };
+		2A5ED2EF20CD8BE800265699 /* PlayerProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2EE20CD8BE800265699 /* PlayerProfileVM.swift */; };
+		2A5ED2F320CD8C5400265699 /* PlayerListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2F220CD8C5400265699 /* PlayerListVM.swift */; };
+		2A5ED2F620CD8CBF00265699 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2F520CD8CBF00265699 /* LoginVC.swift */; };
+		2A5ED2F820CD8CD100265699 /* InputLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2F720CD8CD100265699 /* InputLoginVC.swift */; };
+		2A5ED2FB20CD8CFD00265699 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED2FA20CD8CFD00265699 /* LoginVM.swift */; };
+		2A5ED2FD20CD8EAE00265699 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5ED2FC20CD8EAE00265699 /* Kingfisher.framework */; };
+		2A5ED2FE20CD8EAE00265699 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5ED2FC20CD8EAE00265699 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2A6664FF20CD82590047D6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6664FE20CD82590047D6F1 /* AppDelegate.swift */; };
 		2A66650120CD82590047D6F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66650020CD82590047D6F1 /* ViewController.swift */; };
 		2A66650420CD82590047D6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A66650220CD82590047D6F1 /* Main.storyboard */; };
 		2A66650620CD825A0047D6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A66650520CD825A0047D6F1 /* Assets.xcassets */; };
 		2A66650920CD825A0047D6F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A66650720CD825A0047D6F1 /* LaunchScreen.storyboard */; };
+		2A66651220CD830A0047D6F1 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66651120CD830A0047D6F1 /* MainTabController.swift */; };
+		2A66651520CD83B60047D6F1 /* PlayerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66651420CD83B60047D6F1 /* PlayerListVC.swift */; };
+		2A66651920CD84420047D6F1 /* PlayerListVMType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66651820CD84420047D6F1 /* PlayerListVMType.swift */; };
+		2A66651C20CD84750047D6F1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66651B20CD84750047D6F1 /* Player.swift */; };
+		2A66651E20CD84950047D6F1 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66651D20CD84950047D6F1 /* Score.swift */; };
+		2A66652020CD84B50047D6F1 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66651F20CD84B50047D6F1 /* Config.swift */; };
+		2A66652220CD84F40047D6F1 /* PlayerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66652120CD84F40047D6F1 /* PlayerListCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2A5ED2FF20CD8EAE00265699 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2A5ED2FE20CD8EAE00265699 /* Kingfisher.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2A5ED2CB20CD88BC00265699 /* Build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Build; path = Carthage/Build; sourceTree = "<group>"; };
+		2A5ED2CD20CD88D400265699 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS; path = Carthage/Build/iOS; sourceTree = "<group>"; };
+		2A5ED2CF20CD88EB00265699 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		2A5ED2D320CD894600265699 /* DataProviderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderType.swift; sourceTree = "<group>"; };
+		2A5ED2D520CD897200265699 /* AccountCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCredentials.swift; sourceTree = "<group>"; };
+		2A5ED2D720CD89A300265699 /* PlayerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfile.swift; sourceTree = "<group>"; };
+		2A5ED2D920CD89CF00265699 /* ScoreDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreDetail.swift; sourceTree = "<group>"; };
+		2A5ED2DB20CD8A0C00265699 /* RemoteDataProviderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataProviderType.swift; sourceTree = "<group>"; };
+		2A5ED2DE20CD8A2B00265699 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		2A5ED2E020CD8A6D00265699 /* RemoteDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataProvider.swift; sourceTree = "<group>"; };
+		2A5ED2E220CD8AAB00265699 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		2A5ED2E520CD8AED00265699 /* PlayerProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfileVC.swift; sourceTree = "<group>"; };
+		2A5ED2E720CD8B2200265699 /* PlayerProfileV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfileV.swift; sourceTree = "<group>"; };
+		2A5ED2E920CD8B6500265699 /* ScoreV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreV.swift; sourceTree = "<group>"; };
+		2A5ED2EE20CD8BE800265699 /* PlayerProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfileVM.swift; sourceTree = "<group>"; };
+		2A5ED2F220CD8C5400265699 /* PlayerListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListVM.swift; sourceTree = "<group>"; };
+		2A5ED2F520CD8CBF00265699 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2A5ED2F720CD8CD100265699 /* InputLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLoginVC.swift; sourceTree = "<group>"; };
+		2A5ED2FA20CD8CFD00265699 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		2A5ED2FC20CD8EAE00265699 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		2A6664FB20CD82590047D6F1 /* etnetera-gaming-center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "etnetera-gaming-center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6664FE20CD82590047D6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A66650020CD82590047D6F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +81,13 @@
 		2A66650520CD825A0047D6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A66650820CD825A0047D6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A66650A20CD825A0047D6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A66651120CD830A0047D6F1 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		2A66651420CD83B60047D6F1 /* PlayerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListVC.swift; sourceTree = "<group>"; };
+		2A66651820CD84420047D6F1 /* PlayerListVMType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListVMType.swift; sourceTree = "<group>"; };
+		2A66651B20CD84750047D6F1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2A66651D20CD84950047D6F1 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		2A66651F20CD84B50047D6F1 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2A66652120CD84F40047D6F1 /* PlayerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +95,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5ED2FD20CD8EAE00265699 /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5ED2CA20CD88BC00265699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2CF20CD88EB00265699 /* Kingfisher.framework */,
+				2A5ED2CD20CD88D400265699 /* iOS */,
+				2A5ED2CB20CD88BC00265699 /* Build */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A5ED2D120CD892C00265699 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2DD20CD8A1B00265699 /* Enum */,
+				2A5ED2D220CD893100265699 /* DataProvider */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2A5ED2D220CD893100265699 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2D320CD894600265699 /* DataProviderType.swift */,
+				2A5ED2DB20CD8A0C00265699 /* RemoteDataProviderType.swift */,
+				2A5ED2E020CD8A6D00265699 /* RemoteDataProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		2A5ED2DD20CD8A1B00265699 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2DE20CD8A2B00265699 /* Endpoint.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		2A5ED2E420CD8ADB00265699 /* PlayerProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2E520CD8AED00265699 /* PlayerProfileVC.swift */,
+				2A5ED2E720CD8B2200265699 /* PlayerProfileV.swift */,
+				2A5ED2E920CD8B6500265699 /* ScoreV.swift */,
+			);
+			path = PlayerProfile;
+			sourceTree = "<group>";
+		};
+		2A5ED2ED20CD8BDC00265699 /* PlayerProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2EE20CD8BE800265699 /* PlayerProfileVM.swift */,
+			);
+			path = PlayerProfile;
+			sourceTree = "<group>";
+		};
+		2A5ED2F420CD8CB300265699 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2F520CD8CBF00265699 /* LoginVC.swift */,
+				2A5ED2F720CD8CD100265699 /* InputLoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2A5ED2F920CD8CF300265699 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2FA20CD8CFD00265699 /* LoginVM.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		2A6664F220CD82590047D6F1 = {
 			isa = PBXGroup;
 			children = (
+				2A5ED2FC20CD8EAE00265699 /* Kingfisher.framework */,
 				2A6664FD20CD82590047D6F1 /* etnetera-gaming-center */,
 				2A6664FC20CD82590047D6F1 /* Products */,
+				2A5ED2CA20CD88BC00265699 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +195,71 @@
 		2A6664FD20CD82590047D6F1 /* etnetera-gaming-center */ = {
 			isa = PBXGroup;
 			children = (
+				2A5ED2D120CD892C00265699 /* Common */,
+				2A66651A20CD846C0047D6F1 /* Model */,
+				2A66651620CD84290047D6F1 /* ViewModel */,
+				2A66651020CD82BA0047D6F1 /* View */,
 				2A6664FE20CD82590047D6F1 /* AppDelegate.swift */,
 				2A66650020CD82590047D6F1 /* ViewController.swift */,
 				2A66650220CD82590047D6F1 /* Main.storyboard */,
 				2A66650520CD825A0047D6F1 /* Assets.xcassets */,
 				2A66650720CD825A0047D6F1 /* LaunchScreen.storyboard */,
 				2A66650A20CD825A0047D6F1 /* Info.plist */,
+				2A66651120CD830A0047D6F1 /* MainTabController.swift */,
+				2A66651F20CD84B50047D6F1 /* Config.swift */,
 			);
 			path = "etnetera-gaming-center";
+			sourceTree = "<group>";
+		};
+		2A66651020CD82BA0047D6F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2F420CD8CB300265699 /* Login */,
+				2A5ED2E420CD8ADB00265699 /* PlayerProfile */,
+				2A66651320CD83A60047D6F1 /* PlayerList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A66651320CD83A60047D6F1 /* PlayerList */ = {
+			isa = PBXGroup;
+			children = (
+				2A66651420CD83B60047D6F1 /* PlayerListVC.swift */,
+				2A66652120CD84F40047D6F1 /* PlayerListCell.swift */,
+			);
+			path = PlayerList;
+			sourceTree = "<group>";
+		};
+		2A66651620CD84290047D6F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ED2F920CD8CF300265699 /* Login */,
+				2A5ED2ED20CD8BDC00265699 /* PlayerProfile */,
+				2A66651720CD84330047D6F1 /* PlayerList */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2A66651720CD84330047D6F1 /* PlayerList */ = {
+			isa = PBXGroup;
+			children = (
+				2A66651820CD84420047D6F1 /* PlayerListVMType.swift */,
+				2A5ED2F220CD8C5400265699 /* PlayerListVM.swift */,
+			);
+			path = PlayerList;
+			sourceTree = "<group>";
+		};
+		2A66651A20CD846C0047D6F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A66651B20CD84750047D6F1 /* Player.swift */,
+				2A66651D20CD84950047D6F1 /* Score.swift */,
+				2A5ED2D520CD897200265699 /* AccountCredentials.swift */,
+				2A5ED2D720CD89A300265699 /* PlayerProfile.swift */,
+				2A5ED2D920CD89CF00265699 /* ScoreDetail.swift */,
+				2A5ED2E220CD8AAB00265699 /* Login.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +272,7 @@
 				2A6664F720CD82590047D6F1 /* Sources */,
 				2A6664F820CD82590047D6F1 /* Frameworks */,
 				2A6664F920CD82590047D6F1 /* Resources */,
+				2A5ED2FF20CD8EAE00265699 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,8 +334,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A66651E20CD84950047D6F1 /* Score.swift in Sources */,
+				2A5ED2E320CD8AAB00265699 /* Login.swift in Sources */,
 				2A66650120CD82590047D6F1 /* ViewController.swift in Sources */,
 				2A6664FF20CD82590047D6F1 /* AppDelegate.swift in Sources */,
+				2A5ED2E820CD8B2200265699 /* PlayerProfileV.swift in Sources */,
+				2A66651220CD830A0047D6F1 /* MainTabController.swift in Sources */,
+				2A5ED2E120CD8A6D00265699 /* RemoteDataProvider.swift in Sources */,
+				2A5ED2EF20CD8BE800265699 /* PlayerProfileVM.swift in Sources */,
+				2A5ED2DF20CD8A2B00265699 /* Endpoint.swift in Sources */,
+				2A5ED2FB20CD8CFD00265699 /* LoginVM.swift in Sources */,
+				2A5ED2DC20CD8A0C00265699 /* RemoteDataProviderType.swift in Sources */,
+				2A5ED2D820CD89A300265699 /* PlayerProfile.swift in Sources */,
+				2A5ED2E620CD8AED00265699 /* PlayerProfileVC.swift in Sources */,
+				2A5ED2D620CD897200265699 /* AccountCredentials.swift in Sources */,
+				2A5ED2DA20CD89CF00265699 /* ScoreDetail.swift in Sources */,
+				2A66651920CD84420047D6F1 /* PlayerListVMType.swift in Sources */,
+				2A66652020CD84B50047D6F1 /* Config.swift in Sources */,
+				2A5ED2F820CD8CD100265699 /* InputLoginVC.swift in Sources */,
+				2A5ED2F320CD8C5400265699 /* PlayerListVM.swift in Sources */,
+				2A66652220CD84F40047D6F1 /* PlayerListCell.swift in Sources */,
+				2A66651C20CD84750047D6F1 /* Player.swift in Sources */,
+				2A5ED2EA20CD8B6500265699 /* ScoreV.swift in Sources */,
+				2A5ED2D420CD894600265699 /* DataProviderType.swift in Sources */,
+				2A66651520CD83B60047D6F1 /* PlayerListVC.swift in Sources */,
+				2A5ED2F620CD8CBF00265699 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +504,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37P3A5TJDG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "etnetera-gaming-center/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +526,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37P3A5TJDG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "etnetera-gaming-center/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
